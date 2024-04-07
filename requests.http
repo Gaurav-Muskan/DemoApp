@@ -2,7 +2,7 @@
 
 POST http://localhost:8080/odata/v4/OrdersService/Orders
 Content-Type: application/json
-Authorization: Basic authenticated:
+Authorization: Basic klaus:pass_klaus
 
 {
   "items": [
