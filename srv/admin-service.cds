@@ -4,3 +4,4 @@ service AdminService {
     entity Products   as projection on db.Products;
     entity Categories as projection on db.Categories;
 }
+annotate AdminService @(requires: 'Administrators');
